@@ -27,46 +27,37 @@
                 <div class="valid-feedback">Right on!</div>
                 <div class="invalid-feedback">Give me yo name bro!</div>
             </div>
-            <div class="dropdown">
-  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Choose Class
-  </button>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item" href="#">Human</a>
-    <a class="dropdown-item" href="#">Dwarf</a>
-    <a class="dropdown-item" href="#">Elf</a>
+
+<div class="form-check">
+    <input class="form-check-input" type="checkbox" value="archer" id="archer">
+    <label class="form-check-label" for="archer">
+      Archer + 3 Perception
+    </label>
   </div>
-</div>
-            
-            
-            
-            
-            
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="fighter" id="fighter">
+    <label class="form-check-label" for="fighter">
+      Fighter + 4 Strength
+    </label>
+  </div><div class="form-check">
+    <input class="form-check-input" type="checkbox" value="bard" id="bard">
+    <label class="form-check-label" for="bard">
+      Bard + 2 Charisma
+    </label>
+  </div>
+
+
             <div class="form-floating col-12 col-md-6 pr-0">
-                <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Password" required>
-                <label for="lastname">Last Name</label>
-                <div class="valid-feedback">Right on!</div>
-                <div class="invalid-feedback">Give me yo name bro!</div>
+                <input type="text" class="form-control" id="armor" name="armor" placeholder="Armor Type" required>
+                <label for="armor">Armor (light, heavy)</label>
+                <div class="valid-feedback">Good Choice</div>
+                <div class="invalid-feedback">Hey, pick better</div>
             </div>
-            <div class="form-floating col-12 pr-0">
-                <input type="email" class="form-control" id="email" name="email" placeholder="PassWord" required>
-                <label for="email">Email</label>
-                <div class="valid-feedback">Right on!</div>
-                <div class="invalid-feedback">Give me yo email bro!</div>
-            </div>
-            <div class="form-floating col-12 pr-0">
-                <input type="password" class="form-control" id="password" name="password"
-                    pattern="[A-Z]{1,}[a-z]{1,}[\W]{1,}" placeholder="Password" required>
-                <label for="password">Password</label>
-                <div class="valid-feedback">Right on!</div>
-                <div class="invalid-feedback">Give me yo password bro!</div>
-            </div>
-            <div class="form-floating col-12 pr-0">
-                <input type="text" class="form-control" id="ssn" name="ssn"
-                    placeholder="ssn" required>
-                <label for="ssn">SSN</label>
-                <div class="valid-feedback">Right on!</div>
-                <div class="invalid-feedback">Give me yo SSN bro!</div>
+            <div class="form-floating col-12 col-md-6 pr-0">
+                <input type="text" class="form-control" id="horse" name="horse" placeholder="Name Horse" required>
+                <label for="horse">Name Your Horse</label>
+                <div class="valid-feedback">Good Choice</div>
+                <div class="invalid-feedback">Hey, pick better</div>
             </div>
 
             <div class="col-12 form-control-inline my-3 d-flex justify-content-start">
