@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>RPG Forms</title>
+</head>
+<body>
+     <style>
+        body {
+        color: #333;
+        background-color: #e8e1d9;
+        }
+    </style>
+    <main class="container my-4 p-3 border rounded shadow text-center">
+        <h3>RPG Character Details</h3>
+        <form class="row needs-validation g-2 p-2" novalidate>
+            <div class="form-floating col-12 col-md-6 pl-0">
+                <input type="text" class="form-control" id="firstname" name="firstname" placeholder="name@example.com"
+                    required>
+                <label for="name">Name</label>
+                <div class="valid-feedback">Right on!</div>
+                <div class="invalid-feedback">Give me yo name bro!</div>
+            </div>
+            <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Choose Class
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Human</a>
+    <a class="dropdown-item" href="#">Dwarf</a>
+    <a class="dropdown-item" href="#">Elf</a>
+  </div>
+</div>
+            
+            
+            
+            
+            
+            <div class="form-floating col-12 col-md-6 pr-0">
+                <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Password" required>
+                <label for="lastname">Last Name</label>
+                <div class="valid-feedback">Right on!</div>
+                <div class="invalid-feedback">Give me yo name bro!</div>
+            </div>
+            <div class="form-floating col-12 pr-0">
+                <input type="email" class="form-control" id="email" name="email" placeholder="PassWord" required>
+                <label for="email">Email</label>
+                <div class="valid-feedback">Right on!</div>
+                <div class="invalid-feedback">Give me yo email bro!</div>
+            </div>
+            <div class="form-floating col-12 pr-0">
+                <input type="password" class="form-control" id="password" name="password"
+                    pattern="[A-Z]{1,}[a-z]{1,}[\W]{1,}" placeholder="Password" required>
+                <label for="password">Password</label>
+                <div class="valid-feedback">Right on!</div>
+                <div class="invalid-feedback">Give me yo password bro!</div>
+            </div>
+            <div class="form-floating col-12 pr-0">
+                <input type="text" class="form-control" id="ssn" name="ssn"
+                    placeholder="ssn" required>
+                <label for="ssn">SSN</label>
+                <div class="valid-feedback">Right on!</div>
+                <div class="invalid-feedback">Give me yo SSN bro!</div>
+            </div>
+
+            <div class="col-12 form-control-inline my-3 d-flex justify-content-start">
+                <div>
+                    <label for="Class">Human</label>
+                    <input type="radio" name='class' value="human">
+                </div>
+                <div class="mx-3">
+                    <label for="Class">Dwarf</label>
+                    <input type="radio" name='class' value="dwarf">
+                </div>
+                <div>
+                    <label for="Class">Elf</label>
+                    <input type="radio" name='class' value="elf">
+                </div>
+                
+            </div>
+            <button type="submit" class="col-4 btn btn-outline-info text-info">Submit Data</button>
+        </form>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
